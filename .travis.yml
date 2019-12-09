@@ -1,5 +1,7 @@
 language: java
 
+dist: trusty
+
 jdk: openjdk8
 
 # Running this instead of "build" because this is to reproduce a Dokka issue
