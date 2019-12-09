@@ -259,3 +259,7 @@ java.util.zip.ZipException: zip END header not found
         at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
         at java.base/java.lang.Thread.run(Thread.java:834)
 ```
+
+Some notes:
+
+- Gradle cache sometimes prevents from reproducing (remove `.gradle/` directory)
