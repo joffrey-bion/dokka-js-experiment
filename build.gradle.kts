@@ -27,6 +27,6 @@ kotlin {
 
 tasks.dokka {
     configuration {
-        platform = "js"
+        platform = "JS"
     }
 }
